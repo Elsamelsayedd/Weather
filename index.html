@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="icon" href="" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbar">
+    <!-- start navBar -->
+
+    
+    <nav id="navbar" class="navbar navbar-expand-lg p-5 ">
+      <div class="container ">
+        <a class="navbar-brand" href="#">
+          <div class="nav-logo d-flex">
+            <div class="nav-img w-25">
+              <img src="images/logo@2x.png" class="w-100" alt="logo weather" />
+            </div>
+            <div class="nav-text text-white w-50">
+              <p class="m-0 lg">Weather</p>
+              <p class="m-0 sm">tagline goes here</p>
+            </div>
+          </div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active " aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#News">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#Live cameras">Live cameras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  " href="#Photo">Photo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#Contact">Contact</a>
+            </li>
+            
+            
+
+        </div>
+      </div>
+    </nav>
+        
+
+    <!-- end navBar -->
+
+<!-- start home -->
+    <section id="home">
+      <div class="home my-4">
+
+        <div class="container ">
+          
+
+
+          <div class="home-location position-relative py-5">
+            <input id="homeInput" type="text " class="home-input w-100 rounded-5 ps-3 py-3" placeholder="Find your location...">
+            <button class="home-button rounded-5 px-4 py-2 btn  position-absolute ">Find</button>
+          </div>
+
+
+
+
+          <div class="home-category">
+            <div class="row" id="homeData">
+             
+
+            </div>
+
+          </div>
+        </div>
+
+
+        
+
+
+      </div>
+    </section>
+   
+
+
+    <footer class="py-4">
+      <div class="container ">
+        <div class="contact  d-flex justify-content-around align-items-center">
+        <div class="contact-items w-75">
+          <div class="home-location position-relative py-2 w-100">
+            <input type="text " class="home-input w-100 rounded-5 ps-3 py-3" placeholder="Find your location...">
+            <button class="home-button rounded-5 px-4 py-2 btn  position-absolute ">Subscribe</button>
+          </div>
+        </div>
+
+        <div class="contact-icons d-flex">
+          <div class="contact-icon rounded-circle mx-1 facebook">
+            <i class="fa-brands fa-facebook"></i>
+          </div>
+          <div class="contact-icon rounded-circle mx-1 twitter">
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+          <div class="contact-icon rounded-circle mx-1 google">
+            <i class="fa-brands fa-google"></i>
+          </div>
+          <div class="contact-icon rounded-circle mx-1 pinterest">
+            <i class="fa-brands fa-pinterest"></i>
+          </div>
+        </div>
+        </div>
+        <p class="copy ms-4">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+      </div>
+      
+     
+    </footer>
+
+    <!-- end home -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
