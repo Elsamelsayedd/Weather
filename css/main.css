@@ -89,6 +89,10 @@ body {
   .contact-button {
     padding: 10px !important;
   }
+  .contact-icons {
+    margin-bottom: 24px;
+    margin-left: 15px;
+  }
 }
 
 .nav-link:focus,
