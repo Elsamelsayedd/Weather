@@ -48,12 +48,12 @@ let formattedDate = dayone + month;
                 <div class="home-category-head ">
                   <div class="home-category-head-text d-flex justify-content-between px-2 align-items-baseline py-1">
                     <p class="m-0">${dayNames[day]}</p>
-                    <p class="m-0">${formattedDate}</p>
+                    <p class="m-0 ">${formattedDate}</p>
                   </div>
                   
                   <div class="home-category-body px-3">
                     <p>${list.location.name}</p>
-                    <h2 class="text-white">${list.location.lat}<sup>o</sup>C</h2>
+                    <h2 class="text-white " id="dayOneTemp">${list.location.lat}<sup>o</sup>C</h2>
                     <div class="home-category-body-img px-4 py-3">
                       <img src="${list.current.condition.icon}" alt="moon">
                     </div>
